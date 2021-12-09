@@ -16,7 +16,7 @@ function App() {
         const fetchData = async () => {
             setLoading(true);
             await axios
-                .get('http://localhost:5000/api/get-data')
+                .get('https://react-sandwich-app.herokuapp.com/api/get-data')
                 .then((res) => {
                     setData(res.data.data);
                     setLoading(false);
