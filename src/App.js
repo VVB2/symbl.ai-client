@@ -33,6 +33,15 @@ function App() {
             <Header size='huge' style={{ marginTop: '0.01rem', color: 'red' }}>
                 How To Make
             </Header>
+            <Header size='small' style={{ marginTop: '0.01rem', color: 'red' }}>
+                You can see the API documentation{' '}
+                <a
+                    href='https://documenter.getpostman.com/view/16812758/UVR5po8C'
+                    target='_blank'
+                    rel='noreferrer'>
+                    here
+                </a>
+            </Header>
             <Card.Group itemsPerRow={3}>
                 {data.map((step, key) => (
                     <Card color={step.optional ? 'green' : 'yellow'} key={key}>
