@@ -8,10 +8,8 @@ import {
     Container,
     Header,
 } from 'semantic-ui-react';
-import WindowSize from './WindowSize';
 
 function App() {
-    const { height, width } = WindowSize();
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
@@ -26,7 +24,6 @@ function App() {
         };
         fetchData();
     }, []);
-    console.log(height, width);
     return loading ? (
         <Dimmer active={loading}>
             <Loader />
