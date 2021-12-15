@@ -51,9 +51,9 @@ You need to have [**node**](https://nodejs.org/en/) as well as [**npm**](https:/
 
 ### Project folders
 
--   **`client/public`** - contains the static files like `index.html`
+-   **`public`** - contains the static files like `index.html`
 
--   **`client/src`** - contains all the `.js` files to render on the home page
+-   **`src`** - contains all the `.js` files to render on the home page
 
 ---
 
