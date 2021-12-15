@@ -54,3 +54,10 @@ You need to have [**node**](https://nodejs.org/en/) as well as [**npm**](https:/
 -   **`client/public`** - contains the static files like `index.html`
 
 -   **`client/src`** - contains all the `.js` files to render on the home page
+
+---
+
+## Project Image
+
+![Home Page](images/Home.PNG)
+Home Page
