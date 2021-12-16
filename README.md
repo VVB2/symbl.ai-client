@@ -55,6 +55,54 @@ You need to have [**node**](https://nodejs.org/en/) as well as [**npm**](https:/
 
 -   **`src`** - contains all the `.js` files to render on the home page
 
+```
+.
+├── [1.8K]  README.md
+├── [4.0K]  build
+│   ├── [ 962]  asset-manifest.json
+│   ├── [2.1K]  index.html
+│   ├── [ 492]  manifest.json
+│   └── [4.0K]  static
+│       ├── [4.0K]  css
+│       │   ├── [561K]  2.7dce832d.chunk.css
+│       │   └── [1.3M]  2.7dce832d.chunk.css.map
+│       ├── [4.0K]  js
+│       │   ├── [220K]  2.f726d6bd.chunk.js
+│       │   ├── [1.4K]  2.f726d6bd.chunk.js.LICENSE.txt
+│       │   ├── [801K]  2.f726d6bd.chunk.js.map
+│       │   ├── [1.5K]  main.a01e40d6.chunk.js
+│       │   ├── [3.5K]  main.a01e40d6.chunk.js.map
+│       │   ├── [1.5K]  runtime-main.ff5b8ea4.js
+│       │   └── [8.1K]  runtime-main.ff5b8ea4.js.map
+│       └── [4.0K]  media
+│           ├── [ 53K]  brand-icons.278156e4.woff2
+│           ├── [ 96K]  brand-icons.65a2fb6d.ttf
+│           ├── [496K]  brand-icons.6729d297.svg
+│           ├── [ 62K]  brand-icons.cac87dc0.woff
+│           ├── [ 96K]  brand-icons.d68fa3e6.eot
+│           ├── [ 27K]  flags.99f63ae7.png
+│           ├── [ 39K]  icons.38c6d8ba.woff2
+│           ├── [ 49K]  icons.425399f8.woff
+│           ├── [382K]  icons.62d9dae4.svg
+│           ├── [104K]  icons.a01e3f2d.eot
+│           ├── [103K]  icons.c656b8ca.ttf
+│           ├── [ 30K]  outline-icons.53671035.ttf
+│           ├── [ 12K]  outline-icons.687a4990.woff2
+│           ├── [ 30K]  outline-icons.752905fa.eot
+│           ├── [105K]  outline-icons.9c4845b4.svg
+│           └── [ 14K]  outline-icons.ddae9b1b.woff
+├── [4.0K]  images
+│   └── [632K]  Home.PNG
+├── [1.5M]  package-lock.json
+├── [ 968]  package.json
+├── [4.0K]  public
+│   ├── [ 700]  index.html
+│   └── [ 492]  manifest.json
+└── [4.0K]  src
+    ├── [2.3K]  App.js
+    └── [ 189]  index.js
+```
+
 ---
 
 ## Project Image
