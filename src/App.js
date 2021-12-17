@@ -42,6 +42,14 @@ function App() {
                     here
                 </a>
             </Header>
+            <Header size='small' style={{ marginTop: '0.01rem', color: 'red' }}>
+                You can download the Assignment 1{' '}
+                <a
+                    href='/Steps to make a delicious Peanut Butter.pdf'
+                    download>
+                    here
+                </a>
+            </Header>
             <Card.Group itemsPerRow={3}>
                 {data.map((step, key) => (
                     <Card color={step.optional ? 'green' : 'yellow'} key={key}>
