@@ -50,6 +50,14 @@ function App() {
                     here
                 </a>
             </Header>
+            <Header size='small' style={{ marginTop: '0.01rem', color: 'red' }}>
+                You can download the Proposal{' '}
+                <a
+                    href='/Symbl Proposal.pdf'
+                    download>
+                    here
+                </a>
+            </Header>
             <Card.Group itemsPerRow={3}>
                 {data.map((step, key) => (
                     <Card color={step.optional ? 'green' : 'yellow'} key={key}>
